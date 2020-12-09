@@ -78,7 +78,7 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: rgb(128, 117, 190);
 }
 
 nav li a.active {
