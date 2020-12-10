@@ -40,7 +40,16 @@ img.zweefLinks {
     float: left;
     margin-right: 15px;
 }
-.
+
+img.zweefrechts {
+  float: right;
+margin: 15px;
+}
+
+.Rand {
+border-style:ridge;
+border-width: 10px;
+}
 
 .smalltext {
     font-size: 0.7em;
