@@ -6,7 +6,7 @@ html, body {
     background-color: rgb(202, 196, 255);  
     
     color: #000000;
-    font: Verdana, Arial, Sans-Serif;
+    font: Verdana, Arial, Arial;
 }
 
 
@@ -39,17 +39,20 @@ footer {
 img.zweefLinks {
     float: left;
     margin-right: 15px;
+    border-style:groove;
+    border-width: 8px;
+    border-color: rgb(93, 70, 218)
 }
 
 img.zweefrechts {
   float: right;
 margin: 15px;
+border-style: ridge;
+border-width: 8px;
+border-color: rgb(128, 117, 190)
 }
 
-.Rand {
-border-style:ridge;
-border-width: 10px;
-}
+
 
 .smalltext {
     font-size: 0.7em;
@@ -70,7 +73,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #756091;
     overflow: hidden;
 }
 
@@ -80,7 +83,7 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
